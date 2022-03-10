@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <title>tic-tac-toe</title>
     <link href="styles/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="board">
-    </div>
+    <form>
+      <input type="text" value="Player 1" id="player1"> 
+      <input type="text" value="Player 2" id="player2">
+    </form>
+    <button type="click" id="startBtn">Start</button>
+    <button type="click" id="restartBtn">Restart</button>
+    <div id="board"></div>
+    <div id="display"></div>
   </body>
-  <script src="scripts/main.js"></script>    
+  <script src="scripts/main.js"></script>
 </html>
